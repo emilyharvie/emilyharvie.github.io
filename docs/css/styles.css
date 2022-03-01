@@ -1,0 +1,108 @@
+body{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: rgb(223, 240, 253);
+}
+
+main {
+    width: 60%;
+    margin: 0 auto;
+    max-width: 900px;
+    margin-bottom: 50px;
+}
+
+figure {
+    width: 70%;
+    margin: auto;
+    flex-basis: 300px;
+    max-width: 600px;
+}
+
+
+img {
+    width: 100%;
+    display: block;
+}
+
+
+h1 {
+margin-top: 2em;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 3em;
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 0.411)
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 22px auto;
+    padding: 0.25em;
+  color: rgb(252, 252, 245);
+background-color: cadetblue;
+}
+
+section {
+    background-color:rgb(252, 252, 245);
+    border: 2px solid cadetblue;
+    color: black;
+    margin: 30px;
+    padding: 1em;
+    font-size: 1em;
+}
+
+ol {
+ text-align: left;
+}
+
+
+ 
+.playlink {
+    position: fixed;
+    bottom: 5px;
+    right: 7%;
+    padding: 1em;
+    text-align: center;
+    width: 200px;
+    background-color: cadetblue;
+    margin-left: auto;
+    box-shadow: 2px 2px 5px black;
+  }
+
+  .playlink a {
+    color: rgb(252, 252, 245);
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+
+  .playlink:hover {
+      background-color: rgb(8, 119, 126);
+  }
+  
+  .copyright {
+      color: black;
+      font-family: 'Courier New', Courier, monospace;
+  }
+
+  @media screen and (max-width: 550px) {
+    h1 {
+        font-size: 1.5em;
+      }
+     
+      h2 {
+          font-size: 90%;
+      }
+
+      .playlink {
+        width: 100px;
+        padding: 0.5em;
+      }
+
+      .playlink a {
+          font-size: 0.75em;
+      }
+
+      section {
+          font-size: x-small;
+      }
+  }
